@@ -33,7 +33,7 @@
           <li class="nav-item  d-flex gap-3 " style="display:flex; align-items: center;">
             <!-- <i class="bi bi-journal-plus text-white"></i> -->
             <a class="nav-link texcolor3" type="submit" data-bs-toggle="modal"
-            data-bs-target="#registerCamper" href="#" style="cursor:pointer;"><img src="/svg/mascota.svg" alt="..."> Añadir Mascota</a>
+            data-bs-target="#registerCamper" href="#" style="cursor:pointer;"><img src="/svg/mascota.svg" alt="..."> Añadir Servicio</a>
           </li>
           <li class="nav-item  d-flex gap-3 " style="display:flex; align-items: center;">
           </li>
@@ -51,7 +51,7 @@
           </li>
           <li class="nav-item  d-flex gap-3 " style="display:flex; align-items: center;">
             <!-- <i class="bi bi-person-square text-white"></i> -->
-            <a class="nav-link active texcolor3" aria-current="page" href="servicios.html" style="cursor:pointer;"><img src="/svg/servicios.svg" alt="..."> Servicios</a>
+            <a class="nav-link active texcolor3" aria-current="page" href="#" style="cursor:pointer;"><img src="/svg/servicios.svg" alt="..."> Servicios</a>
           </li>
           <li class="nav-item  d-flex gap-3 " style="display:flex; align-items: center;">
             <!-- <i class="bi bi-person-square text-white"></i> -->
@@ -110,40 +110,26 @@
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header color1">
-        <h1 class="modal-title fs-5 headerr" id="exampleModalLabel">Registra la mascota</h1>
+        <h1 class="modal-title fs-5 headerr" id="exampleModalLabel">Registra el Servicio</h1>
       </div>
       <div class="modal-body">
         <form id="formulario" class="row g-3"  method="POST">
           <div class="col-md-12">
-            <label for="nombre" class="form-label headerr">Nombre</label>
-            <input type="text" class="form-control" id="nombreMascota">
-          </div> 
-    
-    
-    
-           <div class="col-md-6">
-            <label for="promedio" class="form-label headerr">Tipo de Mascota</label>
-            <select class="form-select" id="tipoMascota">
-              <option value="">Seleccione Mascota</option>
-              <option value="gato">Gato</option>
-              <option value="perro">Perro</option>
-              <option value="caballo">Caballo</option>
-              <option value="hamster">Hamster</option>
+            <label for="nombre" class="form-label headerr">Servicio</label>
+            <input type="text" class="form-control" id="servicio">
+          </div>  
+          <div class="col-md-6">
+            <label for="edad" class="form-label headerr">Aseo</label>
+            <input type="text" class="form-control" id="aseo">
+          </div>
+          <div class="col-md-6">
+            <label for="promedio" class="form-label headerr">Tipo de Comida</label>
+            <select class="form-select" id="comida">
+              <option value="">Seleccione comida</option>
+              <option value="Especializada">Especializada</option>
+              <option value="Normal">Normal</option>
             </select>
           </div>
-          <div class="col-md-2">
-            <label for="edad" class="form-label headerr">Edad</label>
-            <input type="number" class="form-control" id="edadMascota">
-          </div>
-          <div class="col-md-8">
-            <label for="nombre" class="form-label headerr">Propietario</label>
-            <input type="text" class="form-control" id="propietarioMascota">
-          </div>
-          <div class="col-12">
-            <label for="expertoTecnologia" class="form-label headerr">Numero Propietario</label>
-            <input type="number" class="form-control" id="numeroMascota">
-            </select>
-          </div> 
       </div>
         <div class="modal-footer ">
           <button type="button" class="btn btn-secondary color3 border3 headerr" data-bs-dismiss="modal">Cerrar</button>
@@ -180,6 +166,7 @@
             <thead class="menu-busqueda">
                   <tr>
                       <th scope="col">ID</th>
+                      <th scope="col">IMAGEN</th>
                       <th scope="col">SERVICIO</th>
                       <th scope="col">ASEO</th>
                       <th scope="col">COMIDA</th>

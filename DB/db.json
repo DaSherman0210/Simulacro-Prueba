@@ -129,12 +129,14 @@
   "servicios": [
     {
       "id": 1,
+      "imagen": "/imgs/servicios/berroBienBañao.jpg",
       "salud": "Aseo",
       "aseo": "Baño",
       "comida": "Normal"
     },
     {
       "id": 2,
+      "imagen": "/imgs/servicios/perritoEnfermito.jpg",
       "salud": "Enfermedad",
       "aseo": "Area Relacionado",
       "comida": "Especializada"

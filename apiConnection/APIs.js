@@ -1,7 +1,7 @@
-const url = "http://localhost:4000/propietarios"
-const urlJuguetes = "http://localhost:4000/juguetes"
-const urlEmpleados = "http://localhost:4000/veterinarios"
-const urlServicios = "http://localhost:4000/servicios"
+const url = "http://localhost:4001/propietarios"
+const urlJuguetes = "http://localhost:4001/juguetes"
+const urlEmpleados = "http://localhost:4001/veterinarios"
+const urlServicios = "http://localhost:4001/servicios"
 
 
 //Macotas------------------------------------------------------
@@ -128,12 +128,27 @@ export const getServicios = async ()=>{
     }
 }
 
-/* export const addServicios = async (service)
+export const addServicios = async (service)=>{
     try {
         await fetch (urlServicios , {
             method: 'POST',
-
+            body: JSON.stringify(service),
+            headers: {
+                "Content-Type": "application/json"
+            }
         })
     } catch (error) {
         console.log(error);
-    } */
+    }
+}
+
+export const deleteServicios = async (id)=>{
+    try {
+        await fetch (`${urlServicios}/${id}`, {
+            method: 'DELETE'
+        })
+    } catch (error) {
+        console.log(error);
+    }
+}
+    
