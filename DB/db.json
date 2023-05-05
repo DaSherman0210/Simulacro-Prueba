@@ -1,142 +1,155 @@
 {
-    "propietarios":[
-        {   
-            "idPropietario": 1,
-            "nombrePropietario": "Luis",
-            "numeroPropietario": 315468743,
-            "mascota": [
-                {
-                "imagen": "/imgs/animales/imagenGato.jpg",
-                    "nombre": "Kitty",
-                    "tipo": "gato",
-                    "años": 5,
-                    "id": 1 
-                }
-            ]   
-        },
+  "propietarios": [
+    {
+      "id": 1,
+      "nombrePropietario": "Luis",
+      "numeroPropietario": 315468743,
+      "mascota": [
         {
-            "idPropietario": 2,
-            "nombrePropietario": "Angelica",
-            "numeroPropietario": 31876092,
-            "mascota": [
-                {
-                    "imagen": "/imgs/animales/imagenPerro.jpg",
-                    "nombre": "Jake",
-                    "tipo": "perro",
-                    "años": 7,
-                    "id": 2 
-                }
-            ]
-            
-        },
-        {
-            "idPropietario": 3,
-            "nombrePropietario": "Yehder",
-            "numeroPropietario": 3005786910,
-            "mascota":[
-                {
-                    "imagen": "/imgs/animales/caballo.jpg",
-                    "nombre": "bethany",
-                    "tipo": "caballo",
-                    "años": 2,
-                    "id": 3 
-                }
-            ]
-            
-        },
-        {
-            "idPropietario": 4,
-            "nombrePropietario": "Andres",
-            "numeroPropietario": 60140745,
-            "mascota":[
-                {
-                    "imagen": "/imgs/animales/raton.webp",
-                    "nombre": "dientes",
-                    "tipo": "hamster",
-                    "años": 3,
-                    "id": 4 
-                }
-            ]
-            
+          "imagen": "/imgs/animales/imagenGato.jpg",
+          "nombre": "Kitty",
+          "tipo": "gato",
+          "años": 5,
+          "id": 1
         }
-    ],
-    "juguetes" :[
+      ]
+    },
+    {
+      "id": 2,
+      "nombrePropietario": "Angelica",
+      "numeroPropietario": 31876092,
+      "mascota": [
         {
-            "imagenJuguete": "/imgs/juguetes/juguetePerro.jpg",
-            "nombreJuguete": "Mordedor",
-            "precioJuguete": 6.900,
-            "idJuguete": 1 
-        },
-        {
-            "imagenJuguete": "/imgs/juguetes/jugueteGato.jpeg",
-            "nombreJuguete": "Torre Gato",
-            "precioJuguete": 135.000,
-            "idJuguete": 2 
-        },
-        {
-            "imagenJuguete": "/imgs/juguetes/jugueteCaballo.jpg",
-            "nombreJuguete": "Juguete Lanzador",
-            "precioJuguete": 15.777,
-            "idJuguete": 3
-        },
-        {
-            "imagenJuguete": "/imgs/juguetes/jugueteHamster.jpg",
-            "nombreJuguete": "Ruedita",
-            "precioJuguete": 21.999,
-            "idJuguete": 4
+          "imagen": "/imgs/animales/imagenPerro.jpg",
+          "nombre": "Jake",
+          "tipo": "perro",
+          "años": 7,
+          "id": 2
         }
-    ],
-    "veterinarios" :[
+      ]
+    },
+    {
+      "id": 3,
+      "nombrePropietario": "Yehder",
+      "numeroPropietario": 3005786910,
+      "mascota": [
         {
-            "imagenEmpleado": "/imgs/veterinarios/veterinaria1.jpg",
-            "nombreEmpleado": "Carlos",
-            "edadEmpleado" : 18,
-            "animalEmpleado" : "perros",
-            "idEmpleado" : 1
-        },
-        {
-            "imagenEmpleado": "/imgs/veterinarios/veterinaria2.webp",
-            "nombreEmpleado": "Andrea",
-            "edadEmpleado" : 24,
-            "animalEmpleado" : "Hamsters",
-            "idEmpleado" : 1
-        },
-        {
-            "imagenEmpleado": "/imgs/veterinarios/veterinaria3.webp",
-            "nombreEmpleado": "Carlos",
-            "edadEmpleado" : 32,
-            "animalEmpleado" : "Caballos",
-            "idEmpleado" : 1
-        },
-        {
-            "imagenEmpleado": "/imgs/veterinarios/veterinaria4.jpg",
-            "nombreEmpleado": "Carlos",
-            "edadEmpleado" : 19,
-            "animalEmpleado" : "Gatos",
-            "idEmpleado" : 1
+          "imagen": "/imgs/animales/caballo.jpg",
+          "nombre": "bethany",
+          "tipo": "caballo",
+          "años": 2,
+          "id": 3
         }
-    ],
-    "servicios" : [
+      ]
+    },
+    {
+      "id": 4,
+      "nombrePropietario": "Andres",
+      "numeroPropietario": 60140745,
+      "mascota": [
         {
-            "salud": "Aseo",
-            "aseo": "Baño",
-            "comida": "Normal"
-        },
-        {
-            "salud": "Enfermedad",
-            "aseo": "Area Relacionado",
-            "comida": "Especializada"
+          "imagen": "/imgs/animales/raton.webp",
+          "nombre": "dientes",
+          "tipo": "hamster",
+          "años": 3,
+          "id": 4
         }
-    ],
-    "factura" : [
+      ]
+    },
+    {
+      "nombrePropietario": "German",
+      "numeroPropietario": "3054075468",
+      "mascota": [
         {
-            "nombreMascota": "",
-            "tipoMascota": "",
-            "nombrePropietario": "",
-            "numeroContacto": "",
-            "servicioEmpleado": "",
-            "precioFactura": "",
-            "idMascota": ""
+          "imagen": "/imgs/animales/imagenPerro.jpg",
+          "nombre": "Sasha",
+          "tipo": "perro",
+          "años": "4"
         }
-    ]
+      ],
+      "id": 5
+    }
+  ],
+  "juguetes": [
+    {
+      "imagenJuguete": "/imgs/juguetes/juguetePerro.jpg",
+      "nombreJuguete": "Mordedor",
+      "precioJuguete": 6.9,
+      "id": 1
+    },
+    {
+      "imagenJuguete": "/imgs/juguetes/jugueteGato.jpeg",
+      "nombreJuguete": "Torre Gato",
+      "precioJuguete": 135,
+      "id": 2
+    },
+    {
+      "imagenJuguete": "/imgs/juguetes/jugueteCaballo.jpg",
+      "nombreJuguete": "Juguete Lanzador",
+      "precioJuguete": 15.777,
+      "id": 3
+    },
+    {
+      "imagenJuguete": "/imgs/juguetes/jugueteHamster.jpg",
+      "nombreJuguete": "Ruedita",
+      "precioJuguete": 21.999,
+      "id": 4
+    }
+  ],
+  "veterinarios": [
+    {
+      "imagenEmpleado": "/imgs/veterinarios/veterinaria1.jpg",
+      "nombreEmpleado": "Carlos",
+      "edadEmpleado": 18,
+      "animalEmpleado": "perros",
+      "id": 1
+    },
+    {
+      "imagenEmpleado": "/imgs/veterinarios/veterinaria2.webp",
+      "nombreEmpleado": "Andrea",
+      "edadEmpleado": 24,
+      "animalEmpleado": "Hamsters",
+      "id": 2
+    },
+    {
+      "imagenEmpleado": "/imgs/veterinarios/veterinaria3.webp",
+      "nombreEmpleado": "Carlos",
+      "edadEmpleado": 32,
+      "animalEmpleado": "Caballos",
+      "id": 3
+    },
+    {
+      "imagenEmpleado": "/imgs/veterinarios/veterinaria4.jpg",
+      "nombreEmpleado": "Carlos",
+      "edadEmpleado": 19,
+      "animalEmpleado": "Gatos",
+      "id": 4
+    }
+  ],
+  "servicios": [
+    {
+      "id": 1,
+      "salud": "Aseo",
+      "aseo": "Baño",
+      "comida": "Normal"
+    },
+    {
+      "id": 2,
+      "salud": "Enfermedad",
+      "aseo": "Area Relacionado",
+      "comida": "Especializada"
+    }
+  ],
+  "factura": [
+    {
+      "id": 1,
+      "nombreMascota": "",
+      "tipoMascota": "",
+      "nombrePropietario": "",
+      "numeroContacto": "",
+      "servicioEmpleado": "",
+      "precioFactura": "",
+      "idMascota": ""
+    }
+  ]
 }

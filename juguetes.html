@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,400&display=swap"
         rel="stylesheet">
-    <script src="js/nuevo.js" type="module" defer></script>
-    <script src="js/app.js" type="module" defer></script>
+    <script src="js/nuevojuguete.js" type="module" defer></script>
+    <script src="js/juguetes.js" type="module" defer></script>
 
     <!-- <script src="js/campers.js" defer></script>  -->
 </head>
@@ -24,7 +24,7 @@
     <div id="div2">
       <!-- menu -->
       <div class="">
-        <a class="navbar-brand " href="/1PaginaCampus.html">
+        <a class="navbar-brand " href="#">
           
           <img src="imgs/logo/campus-removebg-preview.png" alt="Bootstrap" width="100px" height="100px" class="mb-5 imagenLogo"> 
         </a>
@@ -33,12 +33,17 @@
           <li class="nav-item  d-flex gap-3 " style="display:flex; align-items: center;">
             <!-- <i class="bi bi-journal-plus text-white"></i> -->
             <a class="nav-link texcolor3" type="submit" data-bs-toggle="modal"
-            data-bs-target="#registerCamper" href="index.html" style="cursor:pointer;"><img src="/svg/mascota.svg" alt="..."> Añadir Mascota</a>
+            data-bs-target="#registerCamper" href="#" style="cursor:pointer;"><img src="/svg/mascota.svg" alt="..."> Añadir Juguete</a>
           </li>
+          <li class="nav-item  d-flex gap-3 " style="display:flex; align-items: center;">
+          </li>
+          <a class="nav-link texcolor3" type="submit"
+            data-bs-target="#registerCamper" href="index.html" style="cursor:pointer;"><img src="/svg/inicio.svg" alt="..."> Inicio</a>
+
           <li class="nav-item  d-flex gap-3 " style="display:flex; align-items: center;">
             <!-- <i class="bi bi-person-square text-white"></i> -->
             
-            <a class="nav-link active texcolor3" aria-current="page" href="juguetes.html" style="cursor:pointer;"><img src="/svg/juguete.svg" alt="...">Juguetes</a>
+            <a class="nav-link active texcolor3" aria-current="page" href="#" style="cursor:pointer;"><img src="/svg/juguete.svg" alt="...">Juguetes</a>
           </li>
           <li class="nav-item  d-flex gap-3 " style="display:flex; align-items: center;">
             <!-- <i class="bi bi-person-square text-white"></i> -->
@@ -105,38 +110,17 @@
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header color1">
-        <h1 class="modal-title fs-5 headerr" id="exampleModalLabel">Registra la mascota</h1>
+        <h1 class="modal-title fs-5 headerr" id="exampleModalLabel">Registra el nuevo juguete</h1>
       </div>
       <div class="modal-body">
-        <form id="formulario" class="row g-3"  method="POST">
+        <form id="formularioJuguete" class="row g-3"  method="POST">
           <div class="col-md-12">
-            <label for="nombre" class="form-label headerr">Nombre</label>
-            <input type="text" class="form-control" id="nombreMascota">
+            <label for="nombre" class="form-label headerr">tipo</label>
+            <input type="text" class="form-control" id="tipoJuguete">
           </div> 
-    
-    
-    
-           <div class="col-md-6">
-            <label for="promedio" class="form-label headerr">Tipo de Mascota</label>
-            <select class="form-select" id="tipoMascota">
-              <option value="">Seleccione Mascota</option>
-              <option value="gato">Gato</option>
-              <option value="perro">Perro</option>
-              <option value="caballo">Caballo</option>
-              <option value="hamster">Hamster</option>
-            </select>
-          </div>
-          <div class="col-md-2">
-            <label for="edad" class="form-label headerr">Edad</label>
-            <input type="number" class="form-control" id="edadMascota">
-          </div>
-          <div class="col-md-8">
-            <label for="nombre" class="form-label headerr">Propietario</label>
-            <input type="text" class="form-control" id="propietarioMascota">
-          </div>
           <div class="col-12">
-            <label for="expertoTecnologia" class="form-label headerr">Numero Propietario</label>
-            <input type="number" class="form-control" id="numeroMascota">
+            <label for="expertoTecnologia" class="form-label headerr">Precio</label>
+            <input type="number" class="form-control" id="precioJuguete">
             </select>
           </div> 
       </div>
@@ -176,11 +160,8 @@
                   <tr>
                       <th scope="col">ID</th>
                       <th scope="col">IMAGEN</th>
-                      <th scope="col">MASCOTA</th>
                       <th scope="col">TIPO</th>
-                      <th scope="col">EDAD</th>
-                      <th scope="col">PROPIETARIO</th>
-                      <th scope="col">NUMERO</th>
+                      <th scope="col">PRECIO</th>
                       <th scope="col">BORRAR</th>
                   </tr>
             </thead>
